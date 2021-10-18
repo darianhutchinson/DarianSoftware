@@ -1,3 +1,28 @@
-h1 {
-  color: green;
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-item {
+  display: inline;
+  float: left;
+  padding: 10px;
+  background-color: green;
+}
+
+.nav-item:hover {
+  background-color: orange;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: black;
 }
